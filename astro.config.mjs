@@ -4,8 +4,8 @@ import { defineConfig } from 'astro/config';
 import rehypeHighlight from 'rehype-highlight';
 
 export default defineConfig({
-  site: 'https://www.austinmesh.org',
-  trailingSlash: 'always',
+  site: 'https://grahamcountymesh.org',
+  trailingSlash: '/',
   build: { format: 'directory' },
   markdown: {
     syntaxHighlight: false,
