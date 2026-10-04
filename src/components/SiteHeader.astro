@@ -1,14 +1,16 @@
 ---
-import { Image } from 'astro:assets';
-import logo from '../assets/logo/Austin-Mesh-Logo.svg';
-import EventDialog from './EventDialog.astro';
-
-interface Props {
-  eventDialog?: boolean;
-}
-const { eventDialog = true } = Astro.props;
 ---
 <header data-pagefind-ignore="all">
-  <a href="/"><Image src={logo} alt="Logo for Austin Mesh" title="Austin Mesh" class="logo" width={500} height={121} loading="eager" /></a>
-  {eventDialog && <EventDialog />}
+  <a class="wordmark" href="/" aria-label="Graham County Mesh home">
+    <span class="wordmark-mark">GCM</span>
+    <span class="wordmark-type">
+      <strong>GRAHAM COUNTY</strong>
+      <em>MESH</em>
+    </span>
+  </a>
+  <div class="header-signal">
+    <span>MESHTASTIC</span>
+    <span>915 MHz</span>
+    <span>WESTERN NC</span>
+  </div>
 </header>
