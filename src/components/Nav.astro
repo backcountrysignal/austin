@@ -1,74 +1,22 @@
 ---
-import DiscordIcon from '../assets/social/discord.svg';
-import ExternalLinkIcon from '../assets/social/external-link.svg';
-import GitHubIcon from '../assets/social/github.svg';
-import InstagramIcon from '../assets/social/instagram.svg';
 import SearchIcon from '../assets/social/search.svg';
-import YouTubeIcon from '../assets/social/youtube.svg';
 import '../styles/nav.css';
 ---
+
 <nav data-pagefind-ignore="all">
   <details class="nav-toggle">
     <summary>Menu</summary>
   </details>
   <menu class="menu--main">
     <li><a href="/">Home</a></li>
-    <li>
-      <a href="/join/">Join</a>
-      <menu>
-        <li><a href="/join/">Choosing a Platform</a></li>
-        <li><a href="/join/meshcore-setup/">MeshCore Setup</a></li>
-        <li><a href="/join/meshtastic-setup/">Meshtastic Setup</a></li>
-        <li><a href="/join/community-guidelines/">Community Guidelines</a></li>
-        <li><a href="/join/bot-guidelines/">Bot Guidelines</a></li>
-      </menu>
-    </li>
-    <li>
-      <a href="/devices/">Devices</a>
-      <menu>
-        <li><a href="/devices/#options">Suggested Hardware</a></li>
-        <li><a href="/devices/#solar">DIY Solar Repeaters</a></li>
-        <li><a href="https://www.rfindex.com/mesh/devices" target="_blank" rel="noopener">Compare Devices <ExternalLinkIcon class="icon--external" height={14} aria-hidden="true" /></a></li>
-        <li><a href="https://www.rfindex.com/mesh/antennas" target="_blank" rel="noopener">Compare Antennas <ExternalLinkIcon class="icon--external" height={14} aria-hidden="true" /></a></li>
-        <li><a href="/devices/#aerial">Aerial Nodes</a></li>
-      </menu>
-    </li>
-    <li><a href="/projects/">Projects</a></li>
-    <li>
-      <a href="/about/">About</a>
-      <menu>
-        <li><a href="/about/#about">About Austin Mesh</a></li>
-        <li><a href="/about/partners/">Community Partners</a></li>
-        <li><a href="/about/property-owner-faq-hosting-a-node/">Property Owner FAQ</a></li>
-        <li><a href="/about/infrastructure/">Network Infrastructure</a></li>
-        <li><a href="/about/mesh-maps/">Mesh Maps &amp; Tools</a></li>
-        <li><a href="/about/mesh-technology/">Mesh Technology</a></li>
-        <li><a href="/about/meshcore-vs-meshtastic/">MeshCore vs Meshtastic</a></li>
-        <li><a href="/about/similar-networks/">Similar Networks</a></li>
-      </menu>
-    </li>
+    <li><a href="/get-started/">Get Started</a></li>
+    <li><a href="/network/">The Mesh</a></li>
+    <li><a href="/field-guide/">Field Guide</a></li>
+    <li><a href="/about/">About</a></li>
     <li><a href="/search/" aria-label="Search"><SearchIcon class="icon--search" height={18} aria-hidden="true" /></a></li>
   </menu>
-  <menu class="menu--social">
-    <li>
-      <a href="https://discord.gg/6a5Sv2s9bG" target="_blank" rel="noopener" title="Join the AustinMesh Discord">
-        <DiscordIcon class="icon--discord" height={25} />
-      </a>
-    </li>
-    <li>
-      <a href="https://youtube.com/channel/UCtFl5gdwv0SdrP8sHlDMKNA" target="_blank" rel="noopener" title="Join the AustinMesh YouTube">
-        <YouTubeIcon class="icon--youtube" height={25} />
-      </a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/p/Cq0jOpYLpZy/" target="_blank" rel="noopener" title="Join the AustinMesh Instagram">
-        <InstagramIcon class="icon--instagram" height={21} />
-      </a>
-    </li>
-    <li>
-      <a href="https://github.com/austinmesh/www" target="_blank" rel="noopener" title="AustinMesh website source on GitHub">
-        <GitHubIcon class="icon--github" height={21} />
-      </a>
-    </li>
-  </menu>
+  <div class="nav-status">
+    <span class="status-dot"></span>
+    GRAHAM COUNTY / NC
+  </div>
 </nav>
