@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#080608"/>
+<path d="M0 470 L180 300 L330 430 L520 190 L720 410 L930 150 L1200 390 V630 H0Z" fill="#17131a"/>
+<path d="M0 520 L180 350 L330 480 L520 240 L720 460 L930 200 L1200 440" fill="none" stroke="#800000" stroke-width="8"/>
+<circle cx="930" cy="200" r="16" fill="#ff0000"/><circle cx="930" cy="200" r="44" fill="none" stroke="#ff0000" opacity=".3" stroke-width="3"/>
+<text x="72" y="108" fill="#ffd700" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="8">GRAHAM COUNTY</text>
+<text x="68" y="205" fill="#f8f4f6" font-family="Arial Narrow,Arial,sans-serif" font-size="96" font-weight="900">MESH</text>
+<text x="74" y="255" fill="#a9a0a8" font-family="Arial,sans-serif" font-size="22" letter-spacing="6">MESHTASTIC / WESTERN NORTH CAROLINA</text>
+<rect x="74" y="292" width="180" height="5" fill="#ff0000"/>
+<text x="74" y="570" fill="#a9a0a8" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">OFF-GRID • LOCAL • CONNECTED</text>
+</svg>
